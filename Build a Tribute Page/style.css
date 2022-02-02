@@ -1,0 +1,106 @@
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+    font-size: 10px;
+}
+
+body {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+p {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 3.25rem;
+}
+
+h3 {
+    font-size: 2.75rem;
+}
+
+a {
+    color: #477ca7;
+}
+
+a:visited {
+    color: #74638f;
+}
+
+#main {
+    margin: 40px 15px;
+    padding: 40px;
+    border-radius: 5px;
+    background: #eee;
+}
+
+@media (max-width: 560px) {
+    #main {
+        margin: 0;
+    }
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+    font-size: 2rem;
+}
+
+#headline {
+    margin: 50px 0;
+    font-size: 3rem;
+}
+
+ul {
+    max-width: 650px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.8;
+}
+
+li {
+    margin: 16px 0;
+    font-size: 2rem;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 660px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+cite {
+    font-size: 1.75rem;
+}
