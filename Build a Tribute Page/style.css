@@ -27,7 +27,7 @@ h1 {
 }
 
 p {
-    font-size: 2.25rem;
+    font-size: 1.2em;
 }
 
 h2 {
@@ -35,7 +35,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.75rem;
+    font-size: 2.25rem;
 }
 
 a {
@@ -74,7 +74,7 @@ a:visited {
 
 #img-caption {
     margin: 15px 0 5px 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #headline {
@@ -102,5 +102,5 @@ blockquote {
 }
 
 cite {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
